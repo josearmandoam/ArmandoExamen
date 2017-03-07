@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/layoutPrincipal">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPosX"
+            android:layout_marginTop="14dp"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:textColor="@android:color/background_dark"
+            android:text="Posicion X"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:layout_below="@+id/tvNombre"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:textColor="@android:color/background_dark"
+            android:text="Nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv" />
+
+        <TextView
+            android:textColor="@android:color/background_dark"
+            android:text="Fecha/Hora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNombre"
+            android:layout_below="@+id/tv"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="14dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFecha"
+            android:layout_alignBaseline="@+id/tvNombre"
+            android:layout_alignBottom="@+id/tvNombre"
+            android:layout_alignStart="@+id/textView4" />
+
+        <TextView
+            android:textColor="@android:color/background_dark"
+            android:text="Posicion Y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_alignBaseline="@+id/textView9"
+            android:layout_alignBottom="@+id/textView9"
+            android:layout_alignStart="@+id/tvFecha" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPosY"
+            android:layout_alignBaseline="@+id/tvPosX"
+            android:layout_alignBottom="@+id/tvPosX"
+            android:layout_alignStart="@+id/textView6" />
+    </RelativeLayout>
+
+</RelativeLayout>

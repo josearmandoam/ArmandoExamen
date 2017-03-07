@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Servidor"
+        android:key="pref"
+        >
+        <EditTextPreference
+            android:title="Servidor"
+            android:summary="Indique el servidor"
+            android:key="servidor"
+            android:defaultValue="iesayala.ddns.net"
+            >
+        </EditTextPreference>
+        <EditTextPreference
+            android:title="Usuario"
+            android:summary="Indique el usuario"
+            android:defaultValue="joseA"
+            android:key="usuario"
+            >
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:title="Archivo de consulta"
+            android:summary="Indique el archivo con el que va a realizar la consulta SQL"
+            android:defaultValue="Situaciones.php"
+            android:key="archivo"
+            >
+        </EditTextPreference>
+        </PreferenceCategory>
+
+</PreferenceScreen>
